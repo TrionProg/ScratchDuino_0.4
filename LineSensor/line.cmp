@@ -1,0 +1,31 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Пт 28 авг 2015 20:35:16
+
+BeginCmp
+TimeStamp = /55D7AA6B;
+Reference = D3;
+ValeurCmp = QRD1114;
+IdModule  = QRD1114;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D7A979;
+Reference = P1;
+ValeurCmp = SENSOR;
+IdModule  = SENSOR;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D7A98A;
+Reference = R1;
+ValeurCmp = 200;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D7A999;
+Reference = R3;
+ValeurCmp = 5,6K;
+IdModule  = SMD0805;
+EndCmp
+
+EndListe

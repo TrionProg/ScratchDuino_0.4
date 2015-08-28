@@ -1,0 +1,108 @@
+EESchema Schematic File Version 2
+LIBS:RoboplatformLibrary
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "noname.sch"
+Date "28 aug 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SENSOR P4
+U 1 1 55D8BDC8
+P 750 1100
+F 0 "P4" H 900 1650 60  0000 C CNN
+F 1 "SENSOR" V 800 1350 60  0001 C CNN
+F 2 "~" H 750 1100 60  0000 C CNN
+F 3 "~" H 750 1100 60  0000 C CNN
+	1    750  1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SENSOR P5
+U 1 1 55D8BDD7
+P 750 1850
+F 0 "P5" H 900 2400 60  0000 C CNN
+F 1 "SENSOR" V 800 2100 60  0001 C CNN
+F 2 "~" H 750 1850 60  0000 C CNN
+F 3 "~" H 750 1850 60  0000 C CNN
+	1    750  1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SENSOR P6
+U 1 1 55D8BDE6
+P 750 2600
+F 0 "P6" H 900 3150 60  0000 C CNN
+F 1 "SENSOR" V 800 2850 60  0001 C CNN
+F 2 "~" H 750 2600 60  0000 C CNN
+F 3 "~" H 750 2600 60  0000 C CNN
+	1    750  2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L EYE D4
+U 1 1 55D8BFDB
+P 2750 1650
+F 0 "D4" H 2750 1250 60  0000 C CNN
+F 1 "EYE" H 2750 2050 60  0000 C CNN
+F 2 "" H 2750 1450 60  0000 C CNN
+F 3 "" H 2750 1450 60  0000 C CNN
+	1    2750 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1350 1750 1350
+Wire Wire Line
+	1750 1350 1750 1750
+Wire Wire Line
+	1750 1750 1350 1750
+Wire Wire Line
+	1350 1650 2000 1650
+Wire Wire Line
+	2000 1450 2000 1950
+Wire Wire Line
+	2000 1450 2250 1450
+Wire Wire Line
+	2000 1950 2250 1950
+Connection ~ 2000 1650
+Wire Wire Line
+	2250 1650 2100 1650
+Wire Wire Line
+	2100 1550 2100 1850
+Wire Wire Line
+	2100 1850 2250 1850
+Wire Wire Line
+	2100 1550 1500 1550
+Wire Wire Line
+	1500 1550 1500 1450
+Wire Wire Line
+	1500 1450 1350 1450
+Connection ~ 2100 1650
+Wire Wire Line
+	2250 1550 2150 1550
+Wire Wire Line
+	2150 1550 2150 2200
+Wire Wire Line
+	2150 2200 1350 2200
+Wire Wire Line
+	2250 1750 2200 1750
+Wire Wire Line
+	2200 1750 2200 700 
+Wire Wire Line
+	2200 700  1350 700 
+NoConn ~ 1350 800 
+NoConn ~ 1350 900 
+NoConn ~ 1350 1000
+NoConn ~ 1350 2300
+NoConn ~ 1350 2400
+NoConn ~ 1350 2500
+NoConn ~ 1350 1550
+$EndSCHEMATC

@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Пт 28 авг 2015 20:36:39
+
+BeginCmp
+TimeStamp = /55D7AE08;
+Reference = D2;
+ValeurCmp = TOUCHSENSOR;
+IdModule  = TOUCH_SENSOR;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D7AC0C;
+Reference = P2;
+ValeurCmp = SENSOR;
+IdModule  = SENSOR;
+EndCmp
+
+EndListe

@@ -1,0 +1,31 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Пт 28 авг 2015 20:29:31
+
+BeginCmp
+TimeStamp = /55D8BFDB;
+Reference = D4;
+ValeurCmp = EYE;
+IdModule  = EYE;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D8BDC8;
+Reference = P4;
+ValeurCmp = SENSOR;
+IdModule  = SENSOR;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D8BDD7;
+Reference = P5;
+ValeurCmp = SENSOR;
+IdModule  = SENSOR;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D8BDE6;
+Reference = P6;
+ValeurCmp = SENSOR;
+IdModule  = SENSOR;
+EndCmp
+
+EndListe
